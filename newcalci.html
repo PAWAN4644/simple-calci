@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./newcalci.css">
+
+    </head>
+    <body>
+        <table class="bck" border="solid">
+            <!--td,tr-->
+            <tr id="screen">
+                <td id="wt" id="disp" colspan="5">15</td>
+            </tr>
+            <tr>
+                <td id="red">ON</td>
+                <td id="gr">NC</td>
+                <td id="gr">MR</td>
+                <td id="gr">M-</td>
+                <td id="og">M+</td>
+            </tr>
+            <tr class="bck">
+                <td id="gr">OFF</td>
+                <td id="gr"><input type="button" value="%" /></td>
+                <td id="gr">sqrt</td>
+                <td id="gr">+/-</td>
+                <td id="og"><input type="button" value="AC" /></td>
+            </tr>
+            <tr class="bck">
+                <td><input type="button" value="7" /> </td>
+                <td><input type="button" value="8" /></td>
+                <td><input type="button" value="9"></td>
+                <td id="gr"><input type="button" value="*"></td>
+                <td id="og"><input type="button" value="CE"></td>
+            </tr>
+            <tr class="bck">
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td id="gr"><input type="button" value="-"></td>
+                <td id="og"><input type="button" value="/"></td>
+            </tr>
+            <tr class="bck">
+                <td><input type="button" value="1"></td>
+                <td><input type="button" value="2" onclick="display(2)" ></td>
+                <td><input type="button" value="3"></td>
+                <td id="gr" rowspan="2"><input type="button" value="+"></td>
+                <td id="og" rowspan="2"><input type="button" value="="></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="0"></td>
+                <td><input type="button" value="."></td>
+                
+            </tr>
+
+        </table>
+        <script>src="./"</script>
+      
+    </body>
+</html>
